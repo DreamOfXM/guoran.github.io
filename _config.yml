@@ -18,3 +18,5 @@ rdiscount:
 extensions: ['smart']
 encoding: utf-8
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
+
+theme: jekyll-theme-tactile
