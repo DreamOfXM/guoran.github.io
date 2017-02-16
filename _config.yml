@@ -1,0 +1,16 @@
+name: DreamOfXM.Blog
+url: hnyxgxm2009@163.com
+description: 一个拥有梦想的，一个永不放弃的，一个相信明天会更好的人
+
+permalink: /themes/:title/
+
+gems: [jekyll-paginate]
+
+highlighter: pygments
+paginate: 20
+
+markdown: rdiscount
+rdiscount:
+    extensions: ['smart']
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
