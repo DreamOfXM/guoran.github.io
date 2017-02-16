@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 ---
 title: 我的第一篇博客
-layout: compress.html
+layout: default
 ---
-##{{page.title}}
+{{page.title}}
 
 ##目录
 +[第一部分](#partI）
@@ -11,7 +11,7 @@ layout: compress.html
 +[第三部分](#partIII)
 
 ----------------------------------
-##第一部分 <p id = "partI"></p>
+第一部分 <p id = "partI"></p>
 这里是第一部分的内容
 
 ----------------------------------
@@ -21,3 +21,4 @@ layout: compress.html
 ## 第三部分 <p id="partIII"></p>
 这里是第三部分的内容
 {{ page.date|date_to_string }}
+----------------------------------
