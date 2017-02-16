@@ -9,8 +9,12 @@ gems: [jekyll-paginate]
 highlighter: rouge
 paginate: 20
 
-markdown: rdiscount
-rdiscount:
-    extensions: ['smart']
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
+rdiscount:
+extensions: ['smart']
+encoding: utf-8
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
